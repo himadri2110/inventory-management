@@ -51,7 +51,7 @@ export const ProductWidget: FC = () => {
   ];
 
   return (
-    <div className="flex w-full gap-8 my-6">
+    <div className="flex flex-wrap w-full gap-8 my-6 bg-gray-900">
       {widgetData.map((widgetItem) => {
         return (
           <div

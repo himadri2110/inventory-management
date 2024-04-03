@@ -48,7 +48,6 @@ export const EditProduct = ({
   };
 
   const changeHandler = (key: string, value: string | number) => {
-    console.log(key, product);
     setProductProperties((prev) =>
       prev.map((prop) => (prop.key === key ? { ...prop, value } : prop))
     );

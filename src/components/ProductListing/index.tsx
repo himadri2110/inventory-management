@@ -72,7 +72,7 @@ export const ProductListing: FC = () => {
   };
 
   return (
-    <TableWrapper className="bg-gray-900">
+    <TableWrapper className="bg-gray-900 overflow-x-auto">
       <Table
         height={500}
         width={1600}

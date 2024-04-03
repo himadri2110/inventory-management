@@ -16,7 +16,7 @@ function App() {
   }, [dispatch]);
 
   return (
-    <div className="p-4 bg-gray-900 text-white h-screen">
+    <div className="p-4 bg-gray-900 text-white h-full">
       <Header />
 
       {isLoading ? (
