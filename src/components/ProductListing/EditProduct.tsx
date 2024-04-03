@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  Button,
-  Dialog,
-  FormControlLabel,
-  IconButton,
-  InputLabel,
-  TextField,
-} from "@mui/material";
+import { Dialog, IconButton, InputLabel, TextField } from "@mui/material";
 import { Product, editProduct } from "../../slices/ProductSlice";
 import styled from "@emotion/styled";
 import { MdClose } from "react-icons/md";
